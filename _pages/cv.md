@@ -11,35 +11,41 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Management, Economics and Social Sciences, University of Stuttgart, 2024
+  * Supervisor: Professor Dr Katharina Hölzle MBA
+* M.A. in Nonprofit-Management and Public Governance, Berlin School of Economics and Law & HTW Berlin, 2016
+* B.A. in Art History and Economics, Friedrich Schiller University Jena, 2014
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Since 2023: Assistant Professor
+  * ICN Business School, CEREFIGE, University of Lorraine
+  * Duties include: Teaching, Research, Module responsibility (Master-in-Management program, DESSMI/MSc program), head of Innovation and Sustainability specialization (Berlin)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2022: Scientific Advisor in the EXIST-Program of the
+Federal Ministry of Economics and Technology (BMWK)
+  * JÜLICH Forschungszentrum, Berlin, Germany; Project-Management Division (PTJ)
+  * Duties included: Reviewing applications from & advising early-stage startup teams for spin-offs grants, building regional ecosystems for AI-startups in Germany
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016-2021: Research Associate for ERDF and Berlin Senate funded projects
+  * HTW Berlin
+  * Duties included: Digital maturity analysis of 63 companies in workshops, Prototyping of digitalization projects, Dissemination activities in numerous articles, books, and events
+  * Supervisor: Professor Dr Matthias Hartmann
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Trainings: 
+  * Machine Learning (VHB Verband der Hochschullehrerinnen und Hochschullehrer für Betriebswirtschaft)
+  * Python Bootcamp incl. Data Science (Udemy)
+  * Design Science (VHB Verband der Hochschullehrerinnen und Hochschullehrer für Betriebswirtschaft)
+  * Berliner Zertifikat für Hochschullehre (Sep 2019–Nov 2020), 204 units à 45 min, Berliner Zentrum für Hochschullehre (Joint institution of the 13 public universities in Berlin and Charité - Universitätsmedizin Berlin)
+  * Body Language and Rhetorics, Institut für Managementberatung (21.02.2020)
+* Languages
+  * German (native)
+  * English (fluent)
+  * Spanish (good)
+  * French (basic)
+* Research software and programming: MAXQDA, Stata, SPSS, Python, R
 
 Publications
 ======
@@ -61,4 +67,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 2017-2021: Member of the Faculty council (Economics & Law Department HTW Berlin)
