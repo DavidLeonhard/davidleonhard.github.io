@@ -1,36 +1,41 @@
 # Newest first. `selected: true` = always visible.
-- year: 2024
-  title: Innovation, Agility and Design Thinking
-  venue: ICN Business School, Paris, MSc
+- year: 2026
+  title: Sustainable Management and Organizations
+  venue: ICN Business School, Berlin, Master in Management
   selected: true
+- year: 2026
+  title: Research Methods and Data Science
+  venue: ICN Business School, Paris, MSc · 2023, 2026
+- year: 2025
+  title: "Executive MBA study visit (organization and guest lecture)"
+  venue: ICN Business School, Berlin
+- year: 2025
+  title: Innovation, Agility and Design Thinking
+  venue: ICN Business School, Paris, MSc · 2024–2025
+  selected: true
+- year: 2025
+  title: Strategy
+  venue: ICN Business School, Berlin, Master in Management · 2023–2025
+  selected: true
+- year: 2025
+  title: "Business Functions: Enterprise Simulation (CESIM)"
+  venue: ICN Business School, Paris, MSc · 2023–2025
+  selected: true
+- year: 2024
+  title: Strategic Challenge (student consulting project)
+  venue: ICN Business School, Berlin and Paris, Master in Management · 2023–2024
 - year: 2023
   title: Corporate Strategy and Innovation
   venue: ICN Business School, Paris, MSc
-  selected: true
 - year: 2023
-  title: Strategy
-  venue: ICN Business School, Berlin, Master in Management
-  selected: true
-- year: 2023
-  title: Strategic Challenge (student consulting project)
-  venue: ICN Business School, Berlin and Paris, Master in Management
-  selected: true
-- year: 2023
-  title: Research Methods and Data Science
-  venue: ICN Business School, Paris, MSc
-  selected: true
-- year: 2022
-  title: "Business Functions: Enterprise Simulation (CESIM)"
-  venue: ICN Business School, Paris, MSc
-- year: 2022
   title: Governance, Responsible Leadership, Risk Management
-  venue: ICN Business School, Berlin, Master in Management
-- year: 2018
+  venue: ICN Business School, Berlin, Master in Management · 2022–2023
+- year: 2022
   title: "General Management: Enterprise Simulation (TOPSIM)"
-  venue: HTW Berlin, B.A. Business Administration
-- year: 2018
+  venue: HTW Berlin, B.A. Business Administration · 2018–2022
+- year: 2020
   title: Digital Business Seminar
-  venue: HTW Berlin, B.A. Business Administration
-- year: 2017
+  venue: HTW Berlin, B.A. Business Administration · 2018–2020
+- year: 2018
   title: Project Study on Public Marketing
-  venue: HWR Berlin, M.A. Nonprofit Management and Public Governance
+  venue: HWR Berlin, M.A. Nonprofit Management and Public Governance · 2017–2018
