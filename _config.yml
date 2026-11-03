@@ -35,7 +35,7 @@ links:
 # Hero band at the top. Leave `image` empty to hide the band.
 hero:
   image: /assets/img/berlin-band.jpg
-  caption: "Berlin"
+  caption: ""
   position: center 40%   # which part of the photo shows in the band
 
 plugins:
