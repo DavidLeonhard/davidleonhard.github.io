@@ -12,14 +12,14 @@ sitemap: false
 <p>Angaben gemäß § 5 DDG</p>
 
 <p>Leonhard Gebhardt<br>
-[Straße und Hausnummer]<br>
-[PLZ] Berlin</p>
+Bernhard-Lichtenberg-Str. 20A<br>
+10407 Berlin</p>
 
 <p>E-Mail: <a href="mailto:Leonhard.Gebhardt@icn-artem.com">Leonhard.Gebhardt@icn-artem.com</a></p>
 
 <p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Leonhard Gebhardt, Anschrift wie oben.</p>
 
 <h2>Bildnachweis</h2>
-<p>Bandbild (Berlin, gerastert): eigene Aufnahme, Leonhard Gebhardt.</p>
+<p>Bandbild (Berlin): eigene Aufnahme, Leonhard Gebhardt.</p>
 
 </div>
