@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "About me"
-author_profile: true
+author_profile: false
+home_hero: true
 redirect_from: 
   - /about/
   - /about.html
@@ -9,6 +10,7 @@ redirect_from:
 
 
 Welcome! I am a researcher and educator working at the intersection of sustainability, entrepreneurship, and digital transformation. My work explores how entrepreneurs navigate ecological and social challenges, and how digital tools can help entrepreneurs to scale sustainable business models. I am particularly interested in the role of ecosystems, social value orientation, and generative AI in shaping innovative ventures.
+{: .page__lead }
 
 At ICN Business School, I am currently Head of the Digital and Ecological Transformations module that brings together over 800 students to explore sustainability challenges through AI-supported hackathons across Paris, Nancy, and Berlin. In our Berlin campus, I started the Master-in-Management specialization "Innovation and Sustainability".
 

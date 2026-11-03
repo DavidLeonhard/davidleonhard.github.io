@@ -2,19 +2,30 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+/* Color codes used for the theme — "Ecosystem Index" palette, dark */
+$paper                      : #1b1d17;
+$paper-dim                  : #23261d;
+$ink                        : #e6e2d3;
+$ink-soft                   : #a3a08f;
+$line                       : #3a3c31;
+$line-strong                : #4a4c3d;
+$moss                       : #9cb35b;
+$moss-hover                 : mix(#fff, $moss, 25%);
+$moss-visited                : mix(#000, $moss, 20%);
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Retained for shared component partials */
+$gray                       : $ink-soft;
+$dark-gray                  : $ink;
+$darker-gray                : $ink;
+$light-gray                 : $line-strong;
+
+$background                 : $paper;
+$background-light           : $paper-dim;
+$background-lighter         : $line-strong;
+$text                       : $ink;
+$link                       : $moss;
+$link-dark                  : $moss-hover;
+$link-light                 : $moss-visited;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,20 +46,20 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
+    --global-base-color                 : #{$background-lighter};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+    --global-footer-bg-color            : #{$background-light};
+    --global-border-color               : #{$line};
+    --global-dark-border-color          : #{$background-lighter};
+    --global-code-background-color      : #{$background-light};
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$ink-soft};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$link};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #{$ink-soft};
+    --global-thead-color                : #{$line};
 }
