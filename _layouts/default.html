@@ -1,31 +1,49 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if site.hero.image %}<style>.halftone{background-image:url("{{ site.hero.image | relative_url }}");background-position:{{ site.hero.position | default: 'center' }}}</style>{% endif %}
+</head>
+<body>
 
-{% include base_path %}
+{% if site.hero.image and page.hero != false %}
+<figure class="band">
+  <div class="halftone" role="img" aria-label="{{ site.hero.caption | escape }}"></div>
+  {% if site.hero.caption %}<figcaption class="wrap">{{ site.hero.caption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<header class="site">
+  <div class="wrap">
+    <a class="home" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="{{ '/#research' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/#publications' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/#talks' | relative_url }}">Talks</a></li>
+        <li><a href="{{ '/#teaching' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ site.cv_pdf | relative_url }}">CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  <body>
+<main class="wrap" id="top">
+{{ content }}
+</main>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<footer>
+  <div class="wrap">
+    <span>© {{ site.time | date: '%Y' }} {{ site.author }}</span>
+    <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+  </div>
+</footer>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>

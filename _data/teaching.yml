@@ -1,0 +1,36 @@
+# Newest first. `selected: true` = always visible.
+- year: 2024
+  title: Innovation, Agility and Design Thinking
+  venue: ICN Business School, Paris, MSc
+  selected: true
+- year: 2023
+  title: Corporate Strategy and Innovation
+  venue: ICN Business School, Paris, MSc
+  selected: true
+- year: 2023
+  title: Strategy
+  venue: ICN Business School, Berlin, Master in Management
+  selected: true
+- year: 2023
+  title: Strategic Challenge (student consulting project)
+  venue: ICN Business School, Berlin and Paris, Master in Management
+  selected: true
+- year: 2023
+  title: Research Methods and Data Science
+  venue: ICN Business School, Paris, MSc
+  selected: true
+- year: 2022
+  title: "Business Functions: Enterprise Simulation (CESIM)"
+  venue: ICN Business School, Paris, MSc
+- year: 2022
+  title: Governance, Responsible Leadership, Risk Management
+  venue: ICN Business School, Berlin, Master in Management
+- year: 2018
+  title: "General Management: Enterprise Simulation (TOPSIM)"
+  venue: HTW Berlin, B.A. Business Administration
+- year: 2018
+  title: Digital Business Seminar
+  venue: HTW Berlin, B.A. Business Administration
+- year: 2017
+  title: Project Study on Public Marketing
+  venue: HWR Berlin, M.A. Nonprofit Management and Public Governance
