@@ -1,0 +1,13 @@
+{% assign shown = include.items | where: "selected", true %}
+{% assign rest = include.items | where_exp: "i", "i.selected != true" %}
+<ul class="yearlist">
+{% for i in shown %}<li><span class="yr">{{ i.year }}</span><span><span class="t">{{ i.title }}</span><span class="d">{{ i.venue }}</span></span></li>
+{% endfor %}</ul>
+{% if rest.size > 0 %}
+<details>
+  <summary><span class="open-label">Show {{ include.more }}</span><span class="close-label">Hide {{ include.more }}</span></summary>
+  <ul class="yearlist">
+  {% for i in rest %}<li><span class="yr">{{ i.year }}</span><span><span class="t">{{ i.title }}</span><span class="d">{{ i.venue }}</span></span></li>
+  {% endfor %}</ul>
+</details>
+{% endif %}

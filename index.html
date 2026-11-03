@@ -1,0 +1,68 @@
+---
+layout: default
+redirect_from:
+  - /about/
+  - /publications/
+  - /talks/
+  - /teaching/
+---
+<div class="intro">
+  <div class="photo">{% if site.photo %}<img src="{{ site.photo | relative_url }}" alt="Portrait of {{ site.author }}" width="300" height="375">{% endif %}</div>
+  <div>
+    <h1>{{ site.author }}</h1>
+    <p class="role"><strong>{{ site.role }}</strong><br>{{ site.affiliation }}<br>{{ site.location }}</p>
+    <p class="contact">{% for l in site.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+  </div>
+</div>
+
+<p class="statement">I work with entrepreneurs on how new ventures can take on ecological and social challenges, and on the ecosystems, design knowledge and digital tools that help them grow.</p>
+
+<section id="about" class="prose" aria-labelledby="about-h">
+  <h2 id="about-h">About</h2>
+  <p>I am an Assistant Professor in the Strategy and Entrepreneurship Department at <a href="https://www.icn-artem.com">ICN Business School</a> and a member of <a href="https://cerefige.univ-lorraine.fr">CEREFIGE</a> at the University of Lorraine. I co-lead the ICN Research Chair on Digital Transformation and Entrepreneurship.</p>
+  <p>At ICN, I head the Digital and Ecological Transformations module, in which more than 800 students work on sustainability challenges in AI-supported hackathons across Paris, Nancy and Berlin. On the Berlin campus, I founded the Master in Management specialisation in Innovation and Sustainability.</p>
+  <p>I received my PhD in Management from the University of Stuttgart. Before that, I studied Nonprofit Management and Public Governance (M.A., Berlin School of Economics and Law) and Art History and Economics (B.A., Friedrich Schiller University Jena).</p>
+</section>
+
+<section id="research" aria-labelledby="research-h">
+  <h2 id="research-h">Research</h2>
+  <div class="themes">
+    <div>
+      <h3>Sustainable entrepreneurship</h3>
+      <p>How sustainability-driven ventures deal with the liabilities of being new and different, and how entrepreneurs contribute to sustainability transitions.</p>
+    </div>
+    <div>
+      <h3>Entrepreneurial ecosystems</h3>
+      <p>How ecosystems can preserve the social value orientation of founders, how places shape ventures, and what policy can do to put public value at the centre.</p>
+    </div>
+    <div>
+      <h3>Design science and digital tools</h3>
+      <p>Developing design knowledge with practitioners: frameworks and tools for digital transformation, generative AI in entrepreneurship education, and workshops that make research usable.</p>
+    </div>
+  </div>
+</section>
+
+<section id="publications" aria-labelledby="pubs-h">
+  <h2 id="pubs-h">Journal articles</h2>
+  <ol class="pubs">
+  {% for p in site.data.publications %}
+    <li>
+      <a class="pub-title" href="{{ p.url }}">{{ p.title }}</a>
+      <p class="pub-authors">{{ p.authors | replace: "L. Gebhardt", "<b>L. Gebhardt</b>" }}</p>
+      <p class="pub-venue"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}</p>
+    </li>
+  {% endfor %}
+  </ol>
+  <a class="more" href="https://scholar.google.com/citations?user=EnwOsNIAAAAJ&amp;hl=en">All publications on Google Scholar</a>
+</section>
+
+<section id="talks" aria-labelledby="talks-h">
+  <h2 id="talks-h">Selected talks</h2>
+  {% include yearlist.html items=site.data.talks more="earlier talks" %}
+</section>
+
+<section id="teaching" aria-labelledby="teaching-h">
+  <h2 id="teaching-h">Teaching</h2>
+  <p class="lead">I teach strategy, entrepreneurship, innovation and sustainability in undergraduate and graduate programmes, often through hackathons, design thinking and business simulations.</p>
+  {% include yearlist.html items=site.data.teaching more="earlier courses" %}
+</section>
